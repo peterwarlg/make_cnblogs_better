@@ -38,19 +38,21 @@
 <script type="text/javascript">
 
     //博主名称 可不改，默认取博客园提供的
-    var nickName = null;
+    var nickName = "Peter Warlg";
     //slogan
-    var slogan = '立德立言，无闻西东';
+    var slogan = '大连理工大学废物协会首席废柴';
     //icon
-    var icon = "https://ae01.alicdn.com/kf/H445e0280b88f4f34a848238a848a687fw.png";
+    var icon = "https://files.cnblogs.com/files/peterwarlg/ana86-to4xv.gif";
     //默认博客背景图片
-    var defaultPic="https://img2018.cnblogs.com/blog/1138447/201904/1138447-20190426121949417-1115592219.jpg";
+    //var defaultPic="https://img2018.cnblogs.com/blog/1138447/201904/1138447-20190426121949417-1115592219.jpg";
+     var defaultPic="https://files.cnblogs.com/files/peterwarlg/www.gif";
+    
     //icon(浏览器标题栏上的)
     var iconB="https://img2018.cnblogs.com/blog/1138447/201909/1138447-20190911161817172-1737762696.png";
     //友情链接地址
-    var friendLink="https://www.cnblogs.com/summertime-wu/p/9350833.html";
+    var friendLink="https://www.cnblogs.com/peterwarlg";
     //关于地址
-    var aboutMe="https://www.cnblogs.com/summertime-wu/p/9350808.html";
+    var aboutMe="https://www.cnblogs.com/peterwarlg";
     //Github地址,假如博客username与Github username相同，不用改。
     //如 cnblogs.com/username github.com/username 这样就不用改
     var myGayhubUrl = null;
@@ -96,7 +98,7 @@
         //修改a链接
         var ccList = $(".c-c");
         for(var cc of ccList){
-            $(cc).attr("href", $(cc).attr("href").replace("summertime-wu",currentBlogApp));
+            $(cc).attr("href", $(cc).attr("href").replace("peterwarlg",currentBlogApp));
         }
         //设置Github链接
         if (myGayhubUrl != null ){$("#myGayhubUrl").attr("href",myGayhubUrl)}
@@ -315,3 +317,8 @@
 <!-- 代码行号 -->
 <script src="//cdn.bootcss.com/highlightjs-line-numbers.js/1.1.0/highlightjs-line-numbers.min.js"></script>
 <script>hljs.initLineNumbersOnLoad();</script>
+
+<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"> 
+</canvas>
+<script type="text/javascript" src="https://files.cnblogs.com/files/peterwarlg/firework1.js"></script>
+<script type="text/javascript" src="https://files.cnblogs.com/files/peterwarlg/firework2.js"></script>
