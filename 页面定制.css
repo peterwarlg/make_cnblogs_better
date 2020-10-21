@@ -262,6 +262,8 @@
 	    text-align: left;
 	    border-left: 1px solid #ddd;
 	    font-size: 12px;
+	    overflow-y: auto;
+            max-height: 450px;
 	}
 	#right_meun li{
 		list-style: none!important;
